@@ -1,0 +1,17 @@
+h1 {
+    color: #DEB887;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    font-size: 24px;
+}
+
+input {
+    color: white;
+    font-size: 20px;
+    background-color: #A0522D;
+}
