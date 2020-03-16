@@ -17,10 +17,8 @@ async function getRandomChinese(length) {
 			i++;
 
 		}
-		setTimeout(() => {
-			console.log(result);
-			return result;
-		}, 200);
+		console.log(result);
+		return result;
 
 	} catch (err) {
 		alert(err);
@@ -28,6 +26,6 @@ async function getRandomChinese(length) {
 }
 click.onclick = function () {
 	console.log("Result")
-	getRandomChinese(4)
+	getRandomChinese(5)
 
 }
